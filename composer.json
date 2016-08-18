@@ -1,0 +1,20 @@
+{
+    "name": "h2akim/googl",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "description": "Google URL Shortener API",
+    "keyword": ["googl", "url", "shortener"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hakim Razalan",
+            "email": "hakim.razalan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":
+        {
+            "H2akim\\Googl\\": "src/"
+        }
+    }
+}
