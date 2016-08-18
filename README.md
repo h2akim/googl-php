@@ -37,7 +37,7 @@ namespace H2akim\Googl;
 
 $googl = new Googl('your-api-key');
 
-$billplz->expand([
+$googl->expand([
     'longUrl' => 'http://goo.gl/short-url'
 ]);
 ```
