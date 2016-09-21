@@ -12,7 +12,7 @@ composer require h2akim/googl:*
 ## How to Use
 
 #### Create a new shorten URL
-Parameters available for collection creation:
+Parameters available:
 * shortUrl
 * object _(optional)_ - return as object (if true)
 
@@ -27,7 +27,7 @@ $billplz->create([
 ```
 
 #### Retrieve original url from shorten URL
-Parameters available for open collection creation:
+Parameters available:
 * longUrl
 * projection - _ANALYTICS_CLICKS / ANALYTICS_TOP_STRINGS / FULL_
 * object _(optional)_ - return as object (if true)
