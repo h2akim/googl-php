@@ -22,7 +22,7 @@ class Googl
      * @return    string JSON
      *              or stdClass if object object param is set to true
      */
-    public function create($data = array()) {
+    public function create(array $data = []) {
         $this->ch = curl_init($this->endpoint."?key=".$this->api_key);
         if (!array_key_exists('object', $data)) $data['object'] = false;
         $this->params = [ 'longUrl' => $data['longUrl'] ];
@@ -35,9 +35,9 @@ class Googl
      *
      * @param     array $data
      * @return    string JSON
-     *              or stdClass if object object param is set to true
+     *              or stdClass if object param is set to true
      */
-    public function expand($data = array()) {
+    public function expand(array $data = []) {
         $shortUrl = 'shortUrl='.$data['shortUrl'];
         $projection = (isset($data['projection']) && !is_null($data['projection'])) ? '&projection='.$data['projection'] : null;
         $requestUrl = $this->endpoint."?key=".$this->api_key.'&'.$shortUrl.$projection;

@@ -21,7 +21,7 @@ namespace H2akim\Googl;
 
 $googl = new Googl('your-api-key');
 
-$billplz->create([
+$googl->create([
     'shortUrl' => 'http://url.that.you.want.com'
 ]);
 ```
