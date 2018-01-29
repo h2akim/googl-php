@@ -16,5 +16,8 @@
         {
             "H2akim\\Googl\\": "src/"
         }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
     }
 }
