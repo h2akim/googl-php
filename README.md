@@ -2,6 +2,10 @@
 
 Simple PHP library for Google URL Shortener API
 
+## Discontinuation
+
+As Google's URL Shortener service will be discontinued on March 30, 2019, there is no new development of this package from now on. Thanks
+
 ## Getting Started
 
 ### Composer
